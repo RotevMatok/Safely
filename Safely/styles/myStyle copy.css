@@ -1,0 +1,78 @@
+﻿body {
+    direction: rtl;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A1A2E;
+}
+
+li {
+    float: right;
+}
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #E94560;
+        }
+
+#mainNav {
+    float: none;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #mainNav ul li a {
+        display: block;
+        height: 20px;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        font-family: Assistant;
+    }
+
+    #mainNav > ul > li > a {
+        font-size: 14pt;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+.header {
+    padding: 70px;
+    text-align: center;
+    background: #1A1A2E;
+    color: white;
+}
+
+#map-block {
+    background-image: url('../תמונות/map-block-bg-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f5f6f8;
+    padding: 120px 0 70px;
+    margin: 0 50px 0;
+}
+
+.map-container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.map-image {
+    position: center;
+}
+
+

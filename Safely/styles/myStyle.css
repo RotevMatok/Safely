@@ -1,0 +1,707 @@
+﻿header {
+    background-color: #1A1A2E;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+.nav-list {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 65%;
+    margin: 0 auto;
+    padding: 0px;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+a {
+
+    color: azure;
+    text-decoration: none;
+
+    padding: 10px;
+    /* מרווח פנימי */
+
+    border-radius: 15px;
+    /* עיגול קצוות */
+
+    transition: background-color 0.4s ease-in-out;
+    /* אפקטים - מאפיין-זמן-אפקט */
+}
+
+.bb {
+    color: black;
+}
+
+.bb:hover {
+    text-decoration: underline;
+}
+
+
+.nav-item a:hover {
+    background-color: #F7E2E2;
+    color: black
+}
+
+.map-container{
+    /* background-color: aquamarine; */
+    /* כשאנחנו רוצים לראות על מה אנחנו עובדים, */
+    /* אנחנו נותנים בקגראונד קולור לאלמנט */
+    /* כדי לראות בדיוק מה הגבולות וההשפעות של האלמנט */
+    
+    /* כשאנחנו רוצים למקם משהו בתוך משהו, האבא צריך לקבל פוזישן רלטיב */
+    position: relative;
+
+    width: 100%;
+}
+.hero-img{
+    display: block;
+    margin: 10px auto;
+    /* כדי למרכז תמונה בתוך דיב, ניתן לה דיספליי בלוק */
+    /* וניתן לה מרג'ין אוטו */
+
+
+
+    width: 70%;
+}
+
+  /* japan */
+.pin-img{
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    width: 4%;
+  
+}
+
+ /* south korea */
+.pin2-img {
+    position:absolute;
+    top: 22%;
+    left: 72.5%;
+    width:4%;
+}
+
+ /* Finland */
+
+.pin3-img {
+    position: absolute;
+    top: 5%;
+    left: 54%;
+    width: 4%;
+}
+
+ /* New Zeland */
+.pin4-img {
+    position: absolute;
+    top: 78%;
+    left: 81%;
+    width: 4%;
+}
+
+ /* Switzerland */
+
+.pin5-img {
+    position: absolute;
+    top: 20%;
+    left: 49%;
+    width: 4%;
+}
+
+ /* Germany */
+.pin6-img {
+    position: absolute;
+    top: 16%;
+    left: 56%;
+    width: 4%;
+}
+
+ /* Canada */
+.pin7-img {
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    width: 4%;
+}
+ /* Chile */
+.pin8-img {
+    position: absolute;
+    top: 65%;
+    left: 34%;
+    width: 4%;
+}
+
+ /* Uruguay */
+.pin9-img {
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    width: 4%;
+}
+
+ /* Australia */
+.pin10-img {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    width: 4%;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.part1-container {
+    margin: 20px auto;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.profilepic {
+    width: 20%;
+    border-radius: 30px;
+}
+
+.imgtext-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin: auto;
+    
+}
+
+.firstp {
+    direction: rtl;
+    font-size: 24px;
+    line-height: 40px;
+    
+}
+
+.part2-container {
+    margin: 50px auto;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top10 {
+    font-size: 40px;
+}
+
+.states {
+    font-size: 20px;
+    color : #aa0227;
+}
+
+.state {
+    font-size: 35px;
+    color: black;
+    
+}
+
+.galleryinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin: auto;
+}
+
+.japan {
+    width: 45%;
+    border-radius: 20px;
+}
+
+.japanimg {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.info-japan {
+    direction: rtl;
+    font-size: 24px;
+    line-height: 40px;
+    background-color: #F5F6F8;
+    border-radius: 15px;
+    width: 49%;
+
+    
+}
+
+.posts-container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%
+    
+}
+
+.safely {
+    font-size: 40px;
+}
+
+.post-list {
+    display: flex;
+    width: 50%;
+    gap: 40px;
+    /* אומר לפלקס לשבור צורה */
+    /* ולרדת שורה כשנגמר המקום */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.post-item {
+    height: 300px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid ;
+    gap: 20px;
+}
+.post-title{
+    text-align: center;
+
+}
+.post-image{
+    width: 100%;
+    height: 150px;
+
+    object-fit: cover;
+}
+hr.rounded {
+    border-top: 4px solid #bbb;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto
+    
+  }
+
+  .like {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+
+  }
+
+
+  .Footer-nav {
+
+    background-color: #1A1A2E;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 30%;
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-item a:hover {
+    background-color: #F7E2E2;
+    color: black
+}
+
+ul.breadcrumb {
+   
+    padding: 10px 16px;
+    list-style: none;
+    
+  }
+  
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+ 
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+/* CONTACT US*/
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 3px solid #1B2430; /* Gray border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 20px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+    
+  }
+
+  input[type=submit] {
+    background-color: #F7E2E2;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #1B2430;
+    color: #F5F6F8;
+    
+  }
+  
+
+  .contact-page {
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 20px;
+  }
+
+  .contact-page {
+    direction: rtl;
+   color: #1A1A2E;
+  }
+
+
+  .contactus {
+    font-size: 40px;
+  }
+
+  .required {
+    color: #aa0227;
+  }
+
+
+
+  /* ABOUT WEBSITE*/
+
+  .about-container {
+    margin: 20px auto;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    direction: rtl;
+}
+
+
+
+
+.profilepic {
+    width: 20%;
+    border-radius: 30px;
+}
+
+.aboutext-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin: auto;
+    
+}
+
+.aboutwebsite {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.aboutp {
+    font-size: 24px;
+    line-height: 40px;
+    background-color: #F7E2E2;
+    padding: 30px;
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    
+    
+}
+
+.aboutd {
+    font-size: 24px;
+    line-height: 40px;
+    background-color: #F7E2E2;
+    padding: 30px;
+    height: 310px;
+    width: auto;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+
+
+  /* TRY GALLERY CSS*/
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  .img {
+    vertical-align: middle;
+  }
+.container-forgallery {
+    position: relative;
+    width: 50%;
+}
+
+
+
+.mySlides {
+    display: none;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    background-color: #1A1A2E;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+
+.next {
+    right:0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    color: #1A1A2E;
+    background-color:#F7E2E2;
+
+}
+
+.numbertext {
+    color: azure;
+    background-color: #1A1A2E;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 10%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/*ABOUT JAPAN*/
+
+#post_image_header {
+    height: 300px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.japanpage-container {
+    margin: 20px auto;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.profilepic {
+    width: 20%;
+    border-radius: 30px;
+}
+
+.textjapan-container {
+    display: flex;
+    align-items: center;
+   
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin: auto;
+    
+}
+
+.firstp {
+    direction: rtl;
+    font-size: 24px;
+    line-height: 40px;
+    
+}
+
+.bou {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+/*--SITE MAP--*/
+
+.notActive {
+    cursor: not-allowed;
+    color: #01447e;
+}
+
+
+
+.aboutwebsite {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+
+.aboutm {
+    font-size: 24px;
+    line-height: 40px;
+    padding: 30px;
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+
+}
+
+.sitemap {
+    display: block;
+    float: right;
+}
+
+.columnmap {
+
+    float: right;
+    width: 25%;
+    padding: 10px;
+    font: 14pt;
+    
+
+  }
+
+  .rowmap:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  .container-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin: auto;
+  }
+
+
+  
+
+
